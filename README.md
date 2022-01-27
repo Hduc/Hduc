@@ -36,6 +36,15 @@ sudo docker build --no-cache -t nginxplus .
 ## Tạo mới một container, đồng thời khởi động với tùy chọn cổng và volume
 `docker run --name {container_name} -p {host_port}:{container_port} -v {/host_path}:{/container_path} -it {image_name} /bin/bash`
 
+## Tạo container và vào trong container
+`docker run -it {imageId} /bin/bash`
+
+## Để thoát khỏi container
+`Ctrl + P sau đó, Ctrl + Q`
+
+## Vào trong container khi đang chạy
+`docker attach {container_name}`
+
 ## Xem các thay đổi trên container
 `docker diff {container_name}`
 
