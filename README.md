@@ -1,3 +1,13 @@
+## Lệnh docker 
+```
+sudo docker system prune -a
+sudo docker stop $(sudo docker ps -a -q)
+sudo docker rm $(sudo docker ps -a -q)
+sudo docker start $(sudo docker ps -a -p)
+sudo docker restart $(sudo docker ps -a -p)
+
+sudo docker build --no-cache -t nginxplus .
+```
 ## Pull một image từ Docker Hub
 `docker pull {image_name}`
 
