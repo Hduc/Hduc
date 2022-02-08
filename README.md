@@ -68,9 +68,12 @@ sudo docker build --no-cache -t nginxplus .
 ## Khôi phục lại images từ IMAGE_ID
 `docker tag {iamge_id} {image_new_name}:{tag}`
 
-## Build một image từ container
-`docker build -t {container_name} .`
+## Build một image
+`docker build --no-cache -t nghoangducit/{container_name} .`
 > Dấu . ở đây ám chỉ Dockerfile đang nằm trong thư mục hiện tại.
+
+## Push image to dockerHub
+`docker push nghoangducit/{container_name}`
 
 ## Copy file từ host vào container
 `docker cp foo.txt mycontainer:/foo.txt`
