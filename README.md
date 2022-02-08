@@ -27,7 +27,7 @@ git branch <name_branch> // tạo nhánh
 git branch -b <name_branch> //tạo mới và chuyển đế
 
 ```
-## merge với nhánh khách
+## merge với nhánh khác
 `git merge <new_branch>`
 ## Xóa Commit
 ### Bỏ tất cả những commit local
