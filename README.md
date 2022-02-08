@@ -50,12 +50,18 @@ sudo docker build --no-cache -t nginxplus .
 
 ## Commit các thay đổi trên container và image
 `docker commit -m "message" {container_name} {image_name}`
+## xem log container
+`docker log {container_name}`
+
+## xóa log container
+`echo "" > $(docker inspect --format='{{.LogPath}}' <container_name>)`
 
 ## Save image thành file .tar
 `docker save {image_name} > {/host_path/new_image.tar}`
 
 ## Tạo một image mới từ file .tar
 `cat musashi.tar | docker import - {new_image_name}:latest`
+
 ## Xem lịch sử các commit trên image
 `docker history {image_name}`
 
