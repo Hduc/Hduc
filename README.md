@@ -35,3 +35,6 @@ git branch -b <name_branch> //tạo mới và chuyển đế
 
 ### Bỏ những thay đổi local chưa commit
 `git reset --soft HEAD~1`
+
+### tracking những thay đổi của các commit thành floder
+`git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT <commit1> <commit2> | xargs tar -rf <url : /d/update.tar>`
