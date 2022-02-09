@@ -80,3 +80,9 @@ sudo docker build --no-cache -t nginxplus .
 
 ## Copy file từ container vào host
 `docker cp mycontainer:/foo.txt foo.txt`
+
+## volume 
+```
+docker volume ls
+docker volume rm $(docker volume ls)
+```
