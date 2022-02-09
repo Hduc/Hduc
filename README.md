@@ -2,4 +2,4 @@
 - 👀 I’m interested in .Net, Iot, Docker, Fullter, Reactjs, Nodejs, Mongodb, MS SQL Server
 - 🌱 I’m currently learning Reactjs,Flutter and docker
 - 💞️ I’m looking to collaborate on .Net, reactjs, MS SQL Server
-- 📫 Gmail: nghoangducit@gmail.com / Faceboook: https://www.facebook.com/nguyenhoangducit
+- 📫 Gmail: nghoangducit@gmail.com / Faceboook: https://www.facebook.com/hducit
