@@ -51,7 +51,7 @@ sudo docker build --no-cache -t nginxplus .
 ## Commit các thay đổi trên container và image
 `docker commit -m "message" {container_name} {image_name}`
 ## xem log container
-`docker log {container_name}`
+`docker logs {container_name}`
 
 ## xóa log container
 `echo "" > $(docker inspect --format='{{.LogPath}}' <container_name>)`
