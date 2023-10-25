@@ -24,3 +24,15 @@ Flutter channel stable
   
 ### Tạo bản build trên source
 `Flutter create --platforms=windows,macos,linux . `
+
+### Fix run
+#### "error running pod install" 
+```
+# Uninstall the local cocoapods gem
+sudo gem uninstall cocoapods
+
+# Reinstall cocoapods via Homebrew
+brew install cocoapods
+```
+#### build web
+`flutter build web --web-renderer canvaskit --no-tree-shake-icons`
