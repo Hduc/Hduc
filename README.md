@@ -84,6 +84,9 @@
 
 ### ⚡ *"Building the future, one line of code at a time"* ⚡
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hducit&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hduc&show_icons=true&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hduc&layout=compact&theme=tokyonight&hide_border=true)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hduc&theme=tokyonight&hide_border=true)](https://github.com/hduc)
 
 </div>
